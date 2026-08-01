@@ -1,7 +1,12 @@
 aid: ring-radar
 name: Ring Radar
-description: Ring Radar is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ring Radar is horse show management software for the equestrian industry,
+  operating at ringradar.com. The web-based platform helps horse show organizers,
+  managers, and exhibitors run competitions end to end - handling show entries, class
+  scheduling, ring coordination, results, and exhibitor information. Ring Radar is
+  a portfolio company of 500 Global. As of this profile the company runs a consumer
+  web application (login and signup) but publishes no public developer API, SDKs,
+  OpenAPI, or developer documentation surface that could be discovered.
 url: https://raw.githubusercontent.com/api-evangelist/ring-radar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,29 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://ringradar.com/static/favicon.266cf617c9ff.ico
 tags:
 - Company
+- Horse Shows
+- Equestrian
+- Event Management
+- Sports
+- Software
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,16 @@ maintainers:
 common:
 - type: Website
   url: https://ringradar.com
+- type: SignUp
+  url: https://www.ringradar.com/signup
+- type: Login
+  url: https://www.ringradar.com/login
+- type: Support
+  url: https://www.ringradar.com/contact-us
+- type: DomainSecurity
+  url: security/ring-radar-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
